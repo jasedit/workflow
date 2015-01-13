@@ -11,7 +11,7 @@ setup(name='file-workflow',
       long_description=open("README.md").read(),
       url='https://github.com/mdipierro/workflow',
       install_requires=[],
-      py_modules=["workflow"],
+      packages=["workflow"],
       license= 'BSD',
       keywords='workflow',
      )
